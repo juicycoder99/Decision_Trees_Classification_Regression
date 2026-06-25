@@ -1,10 +1,11 @@
-# Data Mining (CS405/CS505) — Assignment 1: Decision Trees
+# Decision Trees for Classification and Regression
 
-Coursework for **Data Mining (CS405/CS505)**, Bishop's University.
+Exploring decision trees for classification and regression with scikit-learn across three datasets.
 
-Decision trees for classification and regression with scikit-learn, answering the seven assignment
-questions. The full solution is in
-[`Assignment1_Decision_Trees.ipynb`](Assignment1_Decision_Trees.ipynb).
+Decision trees applied to the Iris dataset (classification) and the Diabetes dataset (regression),
+plus a synthetic noisy-sine signal, covering key hyperparameter effects and model selection via
+grid search. The full implementation and analysis is in
+[`decision_trees.ipynb`](decision_trees.ipynb).
 
 ## Topics covered
 
@@ -21,12 +22,12 @@ questions. The full solution is in
 
 ```bash
 pip install numpy pandas matplotlib scikit-learn
-jupyter notebook Assignment1_Decision_Trees.ipynb
+jupyter notebook decision_trees.ipynb
 ```
 
 ## Files
 
 | File | Description |
 |------|-------------|
-| `Assignment1_Decision_Trees.ipynb` | Full solution with answers to all 7 questions |
-| `Assignment 1.pdf` | Assignment description |
+| `decision_trees.ipynb` | Full implementation and analysis covering all 7 topics |
+| `PROJECT_BRIEF.pdf` | Project brief (goals, objectives, outcomes) |
